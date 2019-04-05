@@ -1,0 +1,62 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Input */
+.the-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-input {
+    text-align: center;
+    margin: 40px;
+}
+
+.list-input input {
+    height: 24px;
+    text-indent: 4px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.list-input #btn-add, #btn-edit {
+    cursor: pointer;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+/* The list */
+.the-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#to-do-list .one-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6px 0;
+}
+
+#to-do-list img {
+    height: 16px;
+    width: auto;
+    padding: 8px;
+}
+
+#edit, #delete {
+    cursor: pointer;
+}
